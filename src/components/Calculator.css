@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  margin: 10% 20%;
+}
+
+.container {
+  width: 60vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+  background-color: grey;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 0 rgba(66, 58, 58, 0.75);
+}
+
+.screen {
+  padding: 0.5rem;
+  grid-column: 1/ -1;
+  background-color: darkgrey;
+}
+
+.buttons {
+  display: grid;
+  place-content: center;
+  background-color: lightgrey;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.buttons:hover {
+  background-color: gray;
+}
+
+.func {
+  background-color: orange;
+}
+
+.zero {
+  grid-column: 1/3;
+}
