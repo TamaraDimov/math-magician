@@ -4,14 +4,20 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   display: grid;
-  margin: 10% 20%;
+} */
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin: 30px;
 }
 
 .container {
-  width: 60vw;
-  height: 100vh;
+  justify-content: end;
+  width: 30vw;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3px;
