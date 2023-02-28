@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  display: grid;
-} */
 .main {
   display: flex;
   justify-content: space-between;
