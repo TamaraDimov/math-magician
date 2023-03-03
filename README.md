@@ -40,7 +40,7 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
-  - [🚀 Live Demo and project presentation](#live-demo)
+  - [🚀 Deployment link](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -74,9 +74,9 @@ This is the first project of the Math Magicians application. You will set up the
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo and project presentation <a name="live-demo"></a>
+## 🚀 Deployment link and project presentation <a name="live-demo"></a>
 
-- [Live Demo Link COMING SOON]()
+- [Deployment link](https://math-magicians-calc.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
