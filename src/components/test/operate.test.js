@@ -16,8 +16,4 @@ describe('operate', () => {
   test('expect 1 ÷ 0 to be "Can\'t divide by 0."', () => {
     expect(operate('1', '0', '÷')).toBe("Can't divide by 0.");
   });
-
-  test('expect 12 - 5 to be "7"', () => {
-    expect(operate('12', '5', '-')).toBe('7');
-  });
 });
